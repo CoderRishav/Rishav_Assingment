@@ -1,12 +1,11 @@
-n = int(input("Enter the value"))
-a = 0
-b = 1
-sum = 0
+i = int(input("Enter the Number"))
+x = 0
+y = 1
+total = 0
 count = 1
-print("Fibonacci Series")
-while(count <= n):
-  print(sum)
+while(count <= i):
+  print(total)
   count += 1
-  a = b
-  b = sum
-  sum = a + b
+  x = y
+  y = total
+  total = x + y
