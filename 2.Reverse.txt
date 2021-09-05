@@ -1,0 +1,6 @@
+count = 0
+x = str(input('Enter the word to reverse'))
+for y in x :
+    count+=1   
+print('Length of the word entered',count)
+print(x[::-1])
